@@ -36,11 +36,10 @@ def home():
     return """
     <h2>Konversi tahun Masehi ke tahun Jepang</h2>
     <form>
-        <input type='number' name='year' placeholder='Masukkan tahun Masehi'>
+        <input type='number' name='year' placeholder='Masukkan tahun Masehi: dari th 1868 sampai sekarang'>
         <button type='submit'>Konversi</button>
     </form>
     """
-return "Python ini berjalan di Render, ditulis oleh H Gunarto! \n Thanks."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
