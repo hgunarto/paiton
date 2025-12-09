@@ -31,8 +31,9 @@ def home():
 
     if tahun:
         result = konversi_ke_tahun_jepang(tahun)
-        return f"Hasil: {result}"
-
+        return f"Tahun: {tahun} = {result}"
+#        return f"Hasil: {result}"
+    
     return """
     <h2>Konversi tahun Masehi ke tahun Jepang: 1868 ~ th ini</h2>
     <form>
