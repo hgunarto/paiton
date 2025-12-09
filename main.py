@@ -34,10 +34,10 @@ def home():
         return f"Hasil: {result}"
 
     return """
-    <h2>Konversi tahun Masehi ke tahun Jepang</h2>
+    <h2>Konversi tahun Masehi ke tahun Jepang: 1868 ~ th ini</h2>
     <form>
-        <input type='number' name='year' placeholder='Masukkan tahun Masehi: dari th 1868 sampai sekarang'>
-        <button type='submit'>Konversi</button>
+        <input type='number' name='year' placeholder='Masukkan tahun Masehi: '>
+        <button type='submit'>Konversikan</button>
     </form>
     """
 
