@@ -1,1 +1,2 @@
-# flask atau kosongkan saja
+flask
+requests
