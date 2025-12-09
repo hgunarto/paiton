@@ -34,17 +34,18 @@ def home():
         return f"Hasil: {result}"
 
     return """
-    <h2>Konversi Tahun Masehi ke Tahun Jepang</h2>
+    <h2>Konversi tahun Masehi ke tahun Jepang</h2>
     <form>
         <input type='number' name='year' placeholder='Masukkan tahun Masehi'>
         <button type='submit'>Konversi</button>
     </form>
     """
+return "Python ini berjalan di Render, ditulis oleh H Gunarto! \n Thanks."
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
 
 # yang lama untuk check:
-@app.route("/")
-def home():
-    return "Python ini berjalan di Render, ditulis oleh H Gunarto! \n Thanks."
+# @app.route("/")
+# def home():
+  #  return "Python ini berjalan di Render, ditulis oleh H Gunarto! \n Thanks."
